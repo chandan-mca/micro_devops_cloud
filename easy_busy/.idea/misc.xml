@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/users-service/users-service/pom.xml" />
         <option value="$PROJECT_DIR$/common-service/common-service/pom.xml" />
         <option value="$PROJECT_DIR$/service-discovery/service-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/api-gateway/pom.xml" />
       </list>
     </option>
   </component>
