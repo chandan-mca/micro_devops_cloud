@@ -1,4 +1,9 @@
 package com.substring.easybuy.cart_order.dto;
 
-public class OrderCreateRequest {
+import java.util.List;
+
+public record OrderCreateRequest(
+        List<Item> items
+
+) {
 }

@@ -12,7 +12,7 @@ import com.substring.easybuy.cart_order.dto.InventorySnapshot;
 import com.substring.easybuy.cart_order.dto.ReleaseStockRequest;
 import com.substring.easybuy.cart_order.dto.ReserveStockRequest;
 
-@FeignClient(name = "inventoryClient", url = "${services.inventory.base-url}")
+@FeignClient(name = "inventory.service.id")
 public interface InventoryClient {
 
 	@GetMapping("/api/inventories/product/{productId}")

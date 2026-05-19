@@ -10,7 +10,7 @@
         <module name="service-discovery" />
         <module name="common-service" />
       </profile>
-      <profile name="Annotation profile for products-service" enabled="true">
+      <profile name="Annotation profile for cart-order-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />

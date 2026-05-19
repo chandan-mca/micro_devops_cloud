@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.substring.easybuy.cart_order.dto.ProductSnapshot;
 
-@FeignClient(name = "productClient", url = "${services.product.base-url}")
+@FeignClient(name = "productClient", url = "${product.service.id}")
 public interface ProductClient {
 
 	@GetMapping("/api/products/{productId}")
